@@ -11,7 +11,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>http://dev.buyigang.com/static/app/appPackage/weihuobao/weihuobao.ipa</string>
+                    <string>https://raw.githubusercontent.com/tanzhihang/weihuobao/master/weihuobao.ipa</string>
                 </dict>
             </array>
             <key>metadata</key>
