@@ -102,7 +102,7 @@ product - Archive 选择对应的app，然后 Export 出来。
 
 然后把 .ipa 和 .plist 文件都上传到支持HTTPS协议的服务器，在网页源码里写入：
 ```html
-<a href="itms-services://?action=download-manifest&url=https://github.com/tanzhihang/weihuobao/blob/master/com.buyigang.weihuobao.plist" id="text">Install the In-House App</a> 
+<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/tanzhihang/weihuobao/master/com.buyigang.weihuobao.plist" id="text">Install the In-House App</a> 
 ```
  
 在IOS设备iPhone 或 ipad上使用Safari浏览器打开https网址，点击上面的链接即可安装app了。
