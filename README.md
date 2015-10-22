@@ -99,8 +99,10 @@ product - Archive 选择对应的app，然后 Export 出来。
 </plist>
 ```
 红色部分需要修改为你的工程实际内容。
-然后把 .ipa 和 .plist 文件都上传到支持HTTPS协议的服务器，在网页源码里写入：
-<a href="itms-services://?action=download-manifest&url=https://mydomain.com/apps/MyInHouseApp.plist" id="text">Install the In-House App</a> 
 
+然后把 .ipa 和 .plist 文件都上传到支持HTTPS协议的服务器，在网页源码里写入：
+```html
+<a href="itms-services://?action=download-manifest&url=https://mydomain.com/apps/MyInHouseApp.plist" id="text">Install the In-House App</a> 
+```
  
 在IOS设备iPhone 或 ipad上使用Safari浏览器打开https网址，点击上面的链接即可安装app了。
