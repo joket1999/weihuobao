@@ -24,10 +24,8 @@ iOS企业开发In House ipa发布流程：http://blog.csdn.net/zhaoxy_thu/articl
     ##企业发布 in-house 的核心步骤：
     
 一、先登录 https://developer.apple.com/membercenter/index.action 开发者会员中心，打开 “Certificates, Identifiers & Profiles”：
-    <img src="http://www.piaoyi.org/upimg/file071127_08/02/201551711491888.jpg" />
-    
-IOS APP 企业发布：in-house方式
-<img src="http://www.piaoyi.org/upimg/file071127_08/02/20155171271128.jpg" />
+
+<img src="http://www.piaoyi.org/upimg/file071127_08/02/201551711491888.jpg" />
 
 先创建一个app Identifiers:
 <img src="http://www.piaoyi.org/upimg/file071127_08/02/201551711544333.jpg" />
@@ -59,8 +57,9 @@ product - Archive 选择对应的app，然后 Export 出来。
 
 
 导出：
+
 <img src="http://www.piaoyi.org/upimg/file071127_08/02/201551712204866.jpg"/>
-     发布的注意点：
+发布的注意点：
 1、打包的时候不能选择模拟设备，可以选择iOS Device或连接真机，否则 product - Archive 选项是灰色的不可打包。
 <img src="http://www.piaoyi.org/upimg/file071127_08/02/201551721333993.jpg"/>
 
